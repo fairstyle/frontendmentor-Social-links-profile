@@ -7,7 +7,7 @@
 this is my solution in this challenge from frontendmentor.io
 
 - [Source Frontendmentor Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
-- [Live preview](https://fairstyle.github.io/)
+- [Live preview](https://fairstyle.github.io/frontendmentor-Social-links-profile)
 
 # Technologies
 - Html
