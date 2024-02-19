@@ -8,10 +8,30 @@
     <title>Frontendmentor Challenge - Base</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./challenge/assets/images/favicon-32x32.png">
     <link href="./dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
-<body>
-    <main>
-        Frontendmentor base
+<body class="bg-offblack font-['Inter']">
+    <main class="grid h-screen place-content-center">
+        <div class="bg-darkgray p-8 min-w-[350px] rounded-lg space-y-4">
+            <div class="w-full grid justify-items-center">
+                <img  class="rounded-full w-[100px] h-[100px]" src="challenge/assets/images/avatar-jessica.jpeg" alt="">
+            </div>
+            <div class="my-2 text-center">
+                <span class="text-white font-bold text-xl">Jessica Randail</span>
+                <br>
+                <span class="text-active font-semibold text-[0.9rem]">London, United Kingdom</span>
+            </div>
+            <div class="text-center text-white/70 text-[0.8rem]">"Front-end developer and avid reader."</div>
+            <div class="p-2 space-y-4 [&>*]:cursor-pointer [&>*]:text-center [&>*]:w-full [&>*]:text-white [&>*]:py-2 [&>*]:rounded-lg [&>*]:bg-grayy [&>*]:font-semibold [&>*]:duration-300">
+                <div class="hover:bg-active hover:text-black">Github</div>
+                <div class="hover:bg-active hover:text-black">Frontend Mentor</div>
+                <div class="hover:bg-active hover:text-black">LinkedIn</div>
+                <div class="hover:bg-active hover:text-black">Twitter</div>
+                <div class="hover:bg-active hover:text-black">Instagram</div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
